@@ -14,7 +14,7 @@
     "passport-facebook": "*",
     "passport-twitter": "*",
     "instagram-node-lib": "*",
-    //"dotenv": "*"
+    "dotenv": "*"
   },
   "engines": {
     "node": "0.10.x"

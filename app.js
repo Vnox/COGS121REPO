@@ -10,7 +10,7 @@ var index = require('./routes/index');
 //database setup
 var mongoose = require('mongoose');
 var path = require('path'); 
-mongoose.connect(process.env.MONGOLAB_URL || 'mongodb://localhost/instagramexample');
+mongoose.connect('mongodb://localhost/instagramexample');
 
 // //load environment variables
 // var dotenv = require('dotenv');
