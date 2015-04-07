@@ -12,9 +12,9 @@ var mongoose = require('mongoose');
 var path = require('path'); 
 mongoose.connect(process.env.MONGOLAB_URL || 'mongodb://localhost/instagramexample');
 
-//load environment variables
-var dotenv = require('dotenv');
-dotenv.load();
+// //load environment variables
+// var dotenv = require('dotenv');
+// dotenv.load();
 
 //Configures the Template engine
 app.engine('handlebars', handlebars());
